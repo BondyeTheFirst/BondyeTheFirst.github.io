@@ -19,6 +19,7 @@ $(function(){
   function initParallax() {
     $('#home').parallax("100%", 0.1);
     $('#gallery').parallax("100%", 0.3);
+    $('#gallery2').parallax("100%", 0.3);
     $('#menu').parallax("100%", 0.2);
     $('#team').parallax("100%", 0.3);
     $('#contact').parallax("100%", 0.1);
@@ -32,6 +33,10 @@ $(function(){
     });
 
   // NIVO LIGHTBOX
+  $('#gallery a').nivoLightbox({
+        effect: 'fadeScale',
+    });
+	
   $('#gallery a').nivoLightbox({
         effect: 'fadeScale',
     });
