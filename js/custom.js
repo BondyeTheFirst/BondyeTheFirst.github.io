@@ -37,7 +37,7 @@ $(function(){
         effect: 'fadeScale',
     });
 	
-  $('#gallery a').nivoLightbox({
+  $('#gallery2 a').nivoLightbox({
         effect: 'fadeScale',
     });
 	
